@@ -5,6 +5,7 @@
 
 body{
     font-family: bananaslipplus;
+    box-sizing: border-box;
 }
 
 .background {
@@ -43,7 +44,7 @@ body{
     
 }
 
-a {
+.dishes a {
     color:white;
     text-decoration: none;
 }
@@ -55,6 +56,20 @@ ul.no-bullets {
 
 li {
     margin: 30px 0px;
+}
+
+.signature {
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    bottom: 40px;
+    font-size: 1.125em;
+    
+}
+
+.signature a {
+    color:#27362b;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
